@@ -1,0 +1,136 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "8bde1ad1-07df-47e7-8106-4608756be5c6")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 71.12 76.2)
+		(size 18.415 12.065)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1810f7b4-9690-4e6f-aa97-131b79d5bdea")
+		(property "Sheetname" "PWM Reject"
+			(at 71.12 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pwm_reject.kicad_sch"
+			(at 71.12 88.8496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 71.12 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "sim"
+				(path "/8bde1ad1-07df-47e7-8106-4608756be5c6"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 154.305 79.375)
+		(size 26.035 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4ed82a25-3e60-41c1-a9de-a74480b63f66")
+		(property "Sheetname" "VREF Filter"
+			(at 154.305 78.6634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "vref_filter.kicad_sch"
+			(at 154.305 92.6596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "sim"
+				(path "/8bde1ad1-07df-47e7-8106-4608756be5c6"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 112.395 78.105)
+		(size 18.415 12.065)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "89ad02c0-5c8d-465d-a3e5-aeee7b03971a")
+		(property "Sheetname" "Feedback Gain"
+			(at 112.395 77.3934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "feedback_gain.kicad_sch"
+			(at 112.395 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "sim"
+				(path "/8bde1ad1-07df-47e7-8106-4608756be5c6"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

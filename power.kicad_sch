@@ -1,0 +1,18 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e047b07e-03a6-4e83-b481-a3e3ea34468d")
+	(paper "A4")
+	(lib_symbols)
+	(text "Do not forget a fuse"
+		(exclude_from_sim no)
+		(at 140.462 94.488 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8cdeb37d-f573-4658-ad88-9eb734836ff3")
+	)
+)
