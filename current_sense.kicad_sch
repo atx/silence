@@ -2116,7 +2116,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "rflib:SOT65P280X110-8N"
+		(property "Footprint" "footprints:SOT65P280X110-8N"
 			(at 167.64 106.68 0)
 			(effects
 				(font

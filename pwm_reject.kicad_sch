@@ -1494,6 +1494,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 95.25) (xy 185.42 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef5bbe6a-33f6-402a-b630-a892a4094914")
+	)
+	(wire
+		(pts
 			(xy 228.6 97.79) (xy 231.14 97.79)
 		)
 		(stroke
@@ -1501,6 +1511,16 @@
 			(type default)
 		)
 		(uuid "f2659112-32a5-4319-a776-355b03a99013")
+	)
+	(wire
+		(pts
+			(xy 185.42 110.49) (xy 185.42 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8e103a6-f519-4bcb-ae81-8f51ab8faa8c")
 	)
 	(wire
 		(pts
@@ -1532,6 +1552,16 @@
 		)
 		(uuid "fd75c321-8c34-4799-8877-53d6395d8987")
 	)
+	(text "This may be needed to nullify offset somewhere"
+		(exclude_from_sim no)
+		(at 172.212 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "91869a9c-f3be-482e-9859-f887d0dfa15c")
+	)
 	(text "0V - 1V"
 		(exclude_from_sim no)
 		(at 153.416 94.234 0)
@@ -1554,7 +1584,7 @@
 	)
 	(text "Pot sets maximum current"
 		(exclude_from_sim no)
-		(at 70.866 100.076 0)
+		(at 58.42 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2110,6 +2140,119 @@
 		)
 	)
 	(symbol
+		(lib_id "rflib:R")
+		(at 185.42 106.68 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "2f4c91e5-4da2-4faa-ac2e-e74498546590")
+		(property "Reference" "R46"
+			(at 182.88 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 181.61 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 187.198 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 185.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 185.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 185.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_CORRECTION" ""
+			(at 185.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 185.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 185.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "afc576e9-fd96-45cb-aecf-c29b7ad3cf09")
+		)
+		(pin "2"
+			(uuid "3677d851-3949-47a8-bc83-bfc3c3bf1960")
+		)
+		(instances
+			(project "silence"
+				(path "/fe89ff8c-41b6-4857-bb57-156cc6b22e44/3f3de578-1b7e-481d-ab2d-91c68c64d542/3f3d567a-1187-4bed-9774-f365abfa2a84"
+					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 124.46 102.87 0)
 		(unit 1)
@@ -2171,6 +2314,73 @@
 			(project ""
 				(path "/fe89ff8c-41b6-4857-bb57-156cc6b22e44/3f3de578-1b7e-481d-ab2d-91c68c64d542/3f3d567a-1187-4bed-9774-f365abfa2a84"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 185.42 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43a2177a-7149-49d0-9196-3b2c7ae39513")
+		(property "Reference" "#PWR093"
+			(at 185.42 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 185.42 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 185.42 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14c1add9-83aa-449f-9336-05de1416015f")
+		)
+		(instances
+			(project "silence"
+				(path "/fe89ff8c-41b6-4857-bb57-156cc6b22e44/3f3de578-1b7e-481d-ab2d-91c68c64d542/3f3d567a-1187-4bed-9774-f365abfa2a84"
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -2577,7 +2787,7 @@
 	)
 	(symbol
 		(lib_id "rflib:R")
-		(at 87.63 107.95 180)
+		(at 87.63 99.06 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2585,7 +2795,7 @@
 		(dnp no)
 		(uuid "70e0174a-681c-4220-8c68-6bca182dd778")
 		(property "Reference" "R6"
-			(at 85.09 109.22 0)
+			(at 85.09 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2594,7 +2804,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 83.82 106.68 0)
+			(at 83.82 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2602,7 +2812,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 89.408 107.95 90)
+			(at 89.408 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2611,7 +2821,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 87.63 107.95 0)
+			(at 87.63 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2620,7 +2830,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 87.63 107.95 0)
+			(at 87.63 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2629,7 +2839,7 @@
 			)
 		)
 		(property "LCSC" "C25804"
-			(at 87.63 107.95 0)
+			(at 87.63 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2638,7 +2848,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 87.63 107.95 0)
+			(at 87.63 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2647,7 +2857,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 87.63 107.95 0)
+			(at 87.63 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2656,7 +2866,7 @@
 			)
 		)
 		(property "JLCPCB_CORRECTION" ""
-			(at 87.63 107.95 0)
+			(at 87.63 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2665,7 +2875,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 87.63 107.95 0)
+			(at 87.63 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2674,7 +2884,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 87.63 107.95 0)
+			(at 87.63 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3635,7 +3845,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Variable")
-		(at 87.63 99.06 0)
+		(at 87.63 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3644,7 +3854,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf2416ec-26c5-4379-a68c-e136f226fc6e")
 		(property "Reference" "R1"
-			(at 91.44 97.7899 0)
+			(at 91.44 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3653,7 +3863,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 91.44 100.3299 0)
+			(at 91.44 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3662,7 +3872,7 @@
 			)
 		)
 		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
-			(at 85.852 99.06 90)
+			(at 85.852 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3671,7 +3881,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 87.63 99.06 0)
+			(at 87.63 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3680,7 +3890,7 @@
 			)
 		)
 		(property "Description" "Variable resistor"
-			(at 87.63 99.06 0)
+			(at 87.63 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
