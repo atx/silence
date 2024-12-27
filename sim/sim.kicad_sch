@@ -53,6 +53,44 @@
 		)
 	)
 	(sheet
+		(at 154.94 120.65)
+		(size 17.78 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1844c7cd-363a-4f09-b00a-cfc83a98bc2a")
+		(property "Sheetname" "3V3 Filter"
+			(at 154.94 119.9384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "3v3_filter.kicad_sch"
+			(at 154.94 132.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "sim"
+				(path "/8bde1ad1-07df-47e7-8106-4608756be5c6"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 154.305 79.375)
 		(size 26.035 12.7)
 		(fields_autoplaced yes)

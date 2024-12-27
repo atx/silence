@@ -406,6 +406,10 @@
     [
       "4ed82a25-3e60-41c1-a9de-a74480b63f66",
       "VREF Filter"
+    ],
+    [
+      "1844c7cd-363a-4f09-b00a-cfc83a98bc2a",
+      "3V3 Filter"
     ]
   ],
   "text_variables": {}
