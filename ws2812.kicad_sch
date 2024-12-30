@@ -311,189 +311,9 @@
 				)
 			)
 		)
-		(symbol "Jumper:SolderJumper_2_Open"
-			(pin_numbers hide)
+		(symbol "Transistor_BJT:MMBT5551L"
 			(pin_names
 				(offset 0) hide)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SolderJumper_2_Open"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Solder Jumper, 2-pole, open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "solder jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Open*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SolderJumper_2_Open_0_1"
-				(arc
-					(start -0.254 1.016)
-					(mid -1.2656 0)
-					(end -0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 1.016)
-					(mid -1.2656 0)
-					(end -0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.016) (xy 0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 -1.016)
-					(mid 1.2656 0)
-					(end 0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 -1.016)
-					(mid 1.2656 0)
-					(end 0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Open_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Transistor_FET:AO3400A"
-			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -506,7 +326,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "AO3400A"
+			(property "Value" "MMBT5551L"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -526,8 +346,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-				(at 5.08 -3.81 0)
+			(property "Datasheet" "www.onsemi.com/pub/Collateral/MMBT5550LT1-D.PDF"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -536,7 +356,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(property "Description" "0.6A Ic, 160V Vce, NPN Transistor, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -545,7 +365,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "N-Channel MOSFET"
+			(property "ki_keywords" "NPN Transistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -563,10 +383,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "AO3400A_0_1"
+			(symbol "MMBT5551L_0_1"
 				(polyline
 					(pts
-						(xy 0.254 0) (xy -2.54 0)
+						(xy 0.635 0.635) (xy 2.54 2.54)
 					)
 					(stroke
 						(width 0)
@@ -578,55 +398,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -638,10 +410,10 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
 					)
 					(stroke
-						(width 0)
+						(width 0.508)
 						(type default)
 					)
 					(fill
@@ -650,19 +422,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
 					)
 					(stroke
 						(width 0)
@@ -672,69 +432,23 @@
 						(type outline)
 					)
 				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(circle
-					(center 1.651 0)
-					(radius 2.794)
+					(center 1.27 0)
+					(radius 2.8194)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 			)
-			(symbol "AO3400A_1_1"
+			(symbol "MMBT5551L_1_1"
 				(pin input line
 					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
+					(length 5.715)
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -752,7 +466,7 @@
 				(pin passive line
 					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "S"
+					(name "E"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -770,7 +484,7 @@
 				(pin passive line
 					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "D"
+					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1137,28 +851,16 @@
 		)
 	)
 	(junction
-		(at 86.36 102.87)
+		(at 71.12 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "60468d62-ecb6-40bd-83e5-d5941d093642")
-	)
-	(junction
-		(at 92.71 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6120fceb-6fa5-4cf0-8d93-9c41b08bc678")
+		(uuid "3c577f1d-6dc3-44f8-9684-641399f6958c")
 	)
 	(junction
 		(at 165.1 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71a91e90-bcf9-44ff-adbe-5077071a19ec")
-	)
-	(junction
-		(at 152.4 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bffeaa34-956b-4052-a370-20daa3991480")
 	)
 	(junction
 		(at 105.41 82.55)
@@ -1173,22 +875,10 @@
 		(uuid "cbb448b2-0fc1-46df-ba01-61b74ee28c08")
 	)
 	(junction
-		(at 165.1 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d14f306b-b988-4893-8cfa-7a223dfe339a")
-	)
-	(junction
 		(at 105.41 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d404ed55-f4a0-49d9-8a24-27c081349598")
-	)
-	(junction
-		(at 105.41 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e259b447-b965-4a8d-9991-c491ffdab78e")
 	)
 	(junction
 		(at 184.15 96.52)
@@ -1198,7 +888,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 99.06) (xy 86.36 102.87)
+			(xy 71.12 99.06) (xy 71.12 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1208,7 +898,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 114.3) (xy 165.1 107.95)
+			(xy 165.1 107.95) (xy 165.1 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1228,46 +918,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 72.39) (xy 105.41 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14dc1de5-2064-43f4-9e54-cc11984283f2")
-	)
-	(wire
-		(pts
-			(xy 92.71 102.87) (xy 92.71 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14e72092-c87d-4720-a505-1b8dde385b14")
-	)
-	(wire
-		(pts
-			(xy 92.71 114.3) (xy 92.71 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d9ee9bd-420a-490c-8cd5-a0a1b52a9c0f")
-	)
-	(wire
-		(pts
-			(xy 86.36 102.87) (xy 92.71 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e8b7ad3-a30d-4598-9c9c-7e9e54d28a16")
-	)
-	(wire
-		(pts
 			(xy 184.15 110.49) (xy 184.15 116.84)
 		)
 		(stroke
@@ -1275,16 +925,6 @@
 			(type default)
 		)
 		(uuid "22844ff7-cdae-4a63-97a0-efe27d43533a")
-	)
-	(wire
-		(pts
-			(xy 152.4 114.3) (xy 152.4 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34809a7c-d3db-43c2-91d3-3b9bd865a1ac")
 	)
 	(wire
 		(pts
@@ -1318,16 +958,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 116.84) (xy 165.1 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "491838aa-739c-42c6-b0d5-d4f8171b8fae")
-	)
-	(wire
-		(pts
 			(xy 184.15 96.52) (xy 184.15 102.87)
 		)
 		(stroke
@@ -1348,16 +978,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 102.87) (xy 92.71 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "546a2091-a715-43e8-8ff6-7134fbb89aad")
-	)
-	(wire
-		(pts
 			(xy 165.1 95.25) (xy 165.1 96.52)
 		)
 		(stroke
@@ -1365,6 +985,26 @@
 			(type default)
 		)
 		(uuid "56e43739-6e85-4675-afd8-a939aaa5763f")
+	)
+	(wire
+		(pts
+			(xy 85.09 102.87) (xy 97.79 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72edb60b-3ee7-4eec-87cb-8508fdf612d1")
+	)
+	(wire
+		(pts
+			(xy 71.12 102.87) (xy 77.47 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74bc9a0e-ae0f-4eb6-a324-fdd6e39e634e")
 	)
 	(wire
 		(pts
@@ -1378,7 +1018,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 114.3) (xy 105.41 107.95)
+			(xy 105.41 107.95) (xy 105.41 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1448,17 +1088,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 102.87) (xy 152.4 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4483bf1-cc47-4f5a-8423-7cb668a7ca3f")
-	)
-	(wire
-		(pts
-			(xy 135.89 102.87) (xy 152.4 102.87)
+			(xy 135.89 102.87) (xy 157.48 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1468,23 +1098,13 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 116.84) (xy 105.41 114.3)
+			(xy 105.41 71.12) (xy 105.41 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d1a404eb-d371-4aaa-b4f7-26891765fd11")
-	)
-	(wire
-		(pts
-			(xy 157.48 102.87) (xy 152.4 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d90cd86f-0309-4ff5-8b64-01b3bde7b2b9")
+		(uuid "be41accb-c5c9-4d26-b7d2-437a4cc78b13")
 	)
 	(wire
 		(pts
@@ -1508,16 +1128,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 80.01) (xy 105.41 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e39624fe-947c-4983-8ba9-891736254e5d")
-	)
-	(wire
-		(pts
 			(xy 105.41 96.52) (xy 135.89 96.52)
 		)
 		(stroke
@@ -1525,16 +1135,6 @@
 			(type default)
 		)
 		(uuid "e93393dd-e471-4acf-9b0b-1cbbacc5f305")
-	)
-	(wire
-		(pts
-			(xy 105.41 114.3) (xy 92.71 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb6ae0e5-e80a-4e95-a0ec-350e70848dbf")
 	)
 	(wire
 		(pts
@@ -1558,33 +1158,13 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 114.3) (xy 152.4 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6549a41-da14-4596-9bdc-09dc2539b84a")
-	)
-	(wire
-		(pts
-			(xy 76.2 102.87) (xy 86.36 102.87)
+			(xy 64.77 102.87) (xy 71.12 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fe0a54a4-afbb-49cb-bca4-c0a4b71b9133")
-	)
-	(text "TODO: Connector type"
-		(exclude_from_sim no)
-		(at 235.966 103.886 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "0c056fbe-22a2-4035-b418-da2b235f6fc0")
 	)
 	(text "WLED does not support inverting internally"
 		(exclude_from_sim no)
@@ -1595,17 +1175,6 @@
 			)
 		)
 		(uuid "325ea4f4-182c-4e1c-8dd1-e0d2e4e632d4")
-	)
-	(text "Beware that these FETs are only rated up to 30V\nSo this part is disabled by default and should be enabled only on boards that are powered from +5V"
-		(exclude_from_sim no)
-		(at 114.808 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "eaa231e0-15c8-4e6b-8015-35084c611f40")
 	)
 	(text "In case output level needs to be adjusted"
 		(exclude_from_sim no)
@@ -1619,7 +1188,7 @@
 	)
 	(hierarchical_label "DIN"
 		(shape input)
-		(at 76.2 102.87 180)
+		(at 64.77 102.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1936,17 +1505,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:AO3400A")
-		(at 102.87 102.87 0)
+		(lib_id "Transistor_BJT:MMBT5551L")
+		(at 162.56 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "170d336e-2a85-44e6-bb7a-d9cbd31e53ea")
+		(uuid "3633b526-cb7b-499c-8568-4f3c2fbfede8")
 		(property "Reference" "Q1"
-			(at 109.22 101.5999 0)
+			(at 167.64 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1954,8 +1523,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AO3400A"
-			(at 109.22 104.1399 0)
+		(property "Value" "MMBT5551L"
+			(at 167.64 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1964,7 +1533,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 107.95 104.775 0)
+			(at 167.64 104.775 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1974,8 +1543,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-			(at 107.95 106.68 0)
+		(property "Datasheet" "www.onsemi.com/pub/Collateral/MMBT5550LT1-D.PDF"
+			(at 162.56 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1984,8 +1553,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
-			(at 102.87 102.87 0)
+		(property "Description" "0.6A Ic, 160V Vce, NPN Transistor, SOT-23"
+			(at 162.56 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2145"
+			(at 162.56 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1994,22 +1572,22 @@
 			)
 		)
 		(pin "2"
-			(uuid "2e97a36f-aac5-48a7-9b76-db0d6147c6ce")
+			(uuid "2408f3e1-7c7a-430f-8aee-c184162d52ca")
 		)
 		(pin "3"
-			(uuid "1d09891e-f7aa-4f11-8115-7c4d68a38054")
+			(uuid "125e7347-b8e5-499c-99fd-6c693f2028e3")
 		)
 		(pin "1"
-			(uuid "5b2c7d9b-8960-4c8e-b781-1e1c0f4fa26d")
+			(uuid "a3396d00-7c74-4e5f-8832-225a90abcc73")
 		)
 		(instances
 			(project "silence"
 				(path "/fe89ff8c-41b6-4857-bb57-156cc6b22e44/247c4e69-048b-4eca-aae5-8cfe880c7ffc"
-					(reference "Q1")
+					(reference "Q3")
 					(unit 1)
 				)
 				(path "/fe89ff8c-41b6-4857-bb57-156cc6b22e44/fede6b6b-db35-4020-9cfa-2ae12bdfcee5"
-					(reference "Q3")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -2017,7 +1595,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 86.36 99.06 0)
+		(at 71.12 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2026,7 +1604,7 @@
 		(fields_autoplaced yes)
 		(uuid "4c5d4af6-d005-4815-9a7e-59a1d792bc3f")
 		(property "Reference" "TP15"
-			(at 88.9 94.4879 0)
+			(at 73.66 94.4879 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2035,7 +1613,7 @@
 			)
 		)
 		(property "Value" "DIN"
-			(at 88.9 97.0279 0)
+			(at 73.66 97.0279 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2044,7 +1622,7 @@
 			)
 		)
 		(property "Footprint" "meteopress_footprints:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 91.44 99.06 0)
+			(at 76.2 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2053,7 +1631,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 99.06 0)
+			(at 76.2 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2062,7 +1640,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 86.36 99.06 0)
+			(at 71.12 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2228,125 +1806,6 @@
 	)
 	(symbol
 		(lib_id "rflib:R")
-		(at 152.4 109.22 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "631b2d45-25f1-43f0-922d-bb7891c746ea")
-		(property "Reference" "R14"
-			(at 154.94 107.9499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1M"
-			(at 154.94 110.4899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 154.178 109.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 152.4 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C22935"
-			(at 152.4 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 152.4 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 152.4 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 152.4 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 152.4 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5fe0a959-6594-4df6-a84e-a5966a306ba2")
-		)
-		(pin "2"
-			(uuid "e91e594a-d81e-419c-be4c-f8599f6c05cf")
-		)
-		(instances
-			(project "silence"
-				(path "/fe89ff8c-41b6-4857-bb57-156cc6b22e44/247c4e69-048b-4eca-aae5-8cfe880c7ffc"
-					(reference "R14")
-					(unit 1)
-				)
-				(path "/fe89ff8c-41b6-4857-bb57-156cc6b22e44/fede6b6b-db35-4020-9cfa-2ae12bdfcee5"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "rflib:R")
 		(at 105.41 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2465,6 +1924,95 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:MMBT5551L")
+		(at 102.87 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67fe484c-48d0-4e1d-8c28-55c84bd526ac")
+		(property "Reference" "Q6"
+			(at 107.95 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT5551L"
+			(at 107.95 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 107.95 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "www.onsemi.com/pub/Collateral/MMBT5550LT1-D.PDF"
+			(at 102.87 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.6A Ic, 160V Vce, NPN Transistor, SOT-23"
+			(at 102.87 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2145"
+			(at 102.87 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "55e2854a-83e7-4490-8788-4ee7cbdb0daf")
+		)
+		(pin "3"
+			(uuid "9ca3ff77-87fe-4b2b-93ab-8b5d8195a8d7")
+		)
+		(pin "1"
+			(uuid "a276ad78-e57b-4c6f-99e7-d4bed940a32f")
+		)
+		(instances
+			(project ""
+				(path "/fe89ff8c-41b6-4857-bb57-156cc6b22e44/247c4e69-048b-4eca-aae5-8cfe880c7ffc"
+					(reference "Q6")
+					(unit 1)
+				)
+				(path "/fe89ff8c-41b6-4857-bb57-156cc6b22e44/fede6b6b-db35-4020-9cfa-2ae12bdfcee5"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
 		(at 226.06 96.52 0)
 		(unit 1)
@@ -2536,80 +2084,6 @@
 				)
 				(path "/fe89ff8c-41b6-4857-bb57-156cc6b22e44/fede6b6b-db35-4020-9cfa-2ae12bdfcee5"
 					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 105.41 76.2 90)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "77334c79-707c-477f-a724-b75dc439a67a")
-		(property "Reference" "JP4"
-			(at 107.95 74.9299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "WSEN"
-			(at 107.95 77.4699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 105.41 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 105.41 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 105.41 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b6940c21-1b53-43c7-9770-e53312d4887c")
-		)
-		(pin "1"
-			(uuid "95c0517c-56ca-4f63-be82-db170ad0f453")
-		)
-		(instances
-			(project ""
-				(path "/fe89ff8c-41b6-4857-bb57-156cc6b22e44/247c4e69-048b-4eca-aae5-8cfe880c7ffc"
-					(reference "JP4")
-					(unit 1)
-				)
-				(path "/fe89ff8c-41b6-4857-bb57-156cc6b22e44/fede6b6b-db35-4020-9cfa-2ae12bdfcee5"
-					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -2937,34 +2411,32 @@
 	)
 	(symbol
 		(lib_id "rflib:R")
-		(at 92.71 109.22 180)
+		(at 81.28 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c064542e-8198-40b9-9429-9e9048f04d93")
-		(property "Reference" "R13"
-			(at 95.25 107.9499 0)
+		(uuid "befda6ff-d779-478b-8793-843e6f6b7add")
+		(property "Reference" "R54"
+			(at 81.28 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "1M"
-			(at 95.25 110.4899 0)
+		(property "Value" "10k"
+			(at 81.28 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 94.488 109.22 90)
+			(at 81.28 104.648 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2973,7 +2445,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 92.71 109.22 0)
+			(at 81.28 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2982,7 +2454,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 92.71 109.22 0)
+			(at 81.28 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2990,8 +2462,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22935"
-			(at 92.71 109.22 0)
+		(property "LCSC" "C25804"
+			(at 81.28 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3000,7 +2472,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 92.71 109.22 0)
+			(at 81.28 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3009,7 +2481,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 92.71 109.22 0)
+			(at 81.28 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3018,7 +2490,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 92.71 109.22 0)
+			(at 81.28 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3027,7 +2499,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 92.71 109.22 0)
+			(at 81.28 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3036,19 +2508,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "a59f20ef-587c-410c-b844-e2e1a62547c7")
+			(uuid "e0266be0-4345-4538-814e-94a9f92c514d")
 		)
 		(pin "2"
-			(uuid "11656a2b-e425-49a4-a77f-3158e2513c46")
+			(uuid "1dcd8f3b-0191-4aed-b51b-0b6893c35f85")
 		)
 		(instances
 			(project "silence"
 				(path "/fe89ff8c-41b6-4857-bb57-156cc6b22e44/247c4e69-048b-4eca-aae5-8cfe880c7ffc"
-					(reference "R13")
+					(reference "R55")
 					(unit 1)
 				)
 				(path "/fe89ff8c-41b6-4857-bb57-156cc6b22e44/fede6b6b-db35-4020-9cfa-2ae12bdfcee5"
-					(reference "R17")
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -3120,86 +2592,6 @@
 				)
 				(path "/fe89ff8c-41b6-4857-bb57-156cc6b22e44/fede6b6b-db35-4020-9cfa-2ae12bdfcee5"
 					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:AO3400A")
-		(at 162.56 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e0be8de4-f3e4-4e77-b281-4dfbf1669742")
-		(property "Reference" "Q2"
-			(at 168.91 101.5999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AO3400A"
-			(at 168.91 104.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 167.64 104.775 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-			(at 167.64 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
-			(at 162.56 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "07768147-c369-4df5-9c6f-1914e022da40")
-		)
-		(pin "3"
-			(uuid "8f37a253-ce53-44c8-a74d-6a9cd92c63e1")
-		)
-		(pin "1"
-			(uuid "8203d887-ba37-41c2-b2b5-2a8d1d00ff64")
-		)
-		(instances
-			(project "silence"
-				(path "/fe89ff8c-41b6-4857-bb57-156cc6b22e44/247c4e69-048b-4eca-aae5-8cfe880c7ffc"
-					(reference "Q2")
-					(unit 1)
-				)
-				(path "/fe89ff8c-41b6-4857-bb57-156cc6b22e44/fede6b6b-db35-4020-9cfa-2ae12bdfcee5"
-					(reference "Q4")
 					(unit 1)
 				)
 			)
