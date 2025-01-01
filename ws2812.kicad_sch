@@ -1514,7 +1514,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3633b526-cb7b-499c-8568-4f3c2fbfede8")
-		(property "Reference" "Q1"
+		(property "Reference" "Q3"
 			(at 167.64 101.5999 0)
 			(effects
 				(font
@@ -2419,7 +2419,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "befda6ff-d779-478b-8793-843e6f6b7add")
-		(property "Reference" "R54"
+		(property "Reference" "R55"
 			(at 81.28 96.52 90)
 			(effects
 				(font
