@@ -1571,6 +1571,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_CORRECTION" "0;0;180"
+			(at 162.56 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2408f3e1-7c7a-430f-8aee-c184162d52ca")
 		)
@@ -1982,6 +1991,15 @@
 			)
 		)
 		(property "LCSC" "C2145"
+			(at 102.87 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_CORRECTION" "0;0;180"
 			(at 102.87 102.87 0)
 			(effects
 				(font

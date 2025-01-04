@@ -1276,15 +1276,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5199804"
-			(at 181.61 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "cb9ecc8e-11a3-4bf7-877c-3d2e305e303b")
 		)
@@ -1315,7 +1306,7 @@
 				)
 			)
 		)
-		(property "Value" "1n/100V"
+		(property "Value" "1n"
 			(at 123.1963 123.19 90)
 			(effects
 				(font
@@ -1350,7 +1341,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C153291"
+		(property "LCSC" "C1588"
 			(at 123.19 127 0)
 			(effects
 				(font

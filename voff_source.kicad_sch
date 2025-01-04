@@ -1497,15 +1497,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5199804"
-			(at 189.23 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "5c0533b1-5374-450d-a2de-c1b4e1d1faae")
 		)
@@ -1571,7 +1562,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15402"
+		(property "LCSC" "C21189"
 			(at 140.97 119.38 0)
 			(effects
 				(font
@@ -2697,6 +2688,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C398362"
+			(at 139.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_CORRECTION" "0;0;270"
+			(at 139.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "90668183-8d69-4810-beeb-df89158b5471")
 		)
@@ -2767,6 +2776,15 @@
 		)
 		(property "Description" "Ferrite bead, small symbol"
 			(at 170.18 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1002"
+			(at 170.18 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -2368,6 +2368,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C398362"
+			(at 146.05 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_CORRECTION" "0;0;270"
+			(at 146.05 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "4e487809-d82b-471f-ab06-6f8a323a323c")
 		)
